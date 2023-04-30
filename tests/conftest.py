@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from flask_flashcards import create_app
+from flask_flashcards.ext.commands import populate_db
+from flask_flashcards.ext.database import db
 
 
 @pytest.fixture(scope="session")
